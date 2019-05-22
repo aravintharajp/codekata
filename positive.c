@@ -5,19 +5,19 @@ int main(void) {
 	scanf("%d",&a);
 	if(a<0)
 	{
-		printf("negative");
+		printf("Negative");
 	}
 	else if(a>0)
 	{
-		printf("positive");
+		printf("Positive");
 	}
 	else if(a==0)
 	{
-		printf("zero");
+		printf("Zero");
 	}
 	else
 	{
-		printf("invalid input");	
+		printf("Invalid input");	
 	}
 	return 0;
 }
