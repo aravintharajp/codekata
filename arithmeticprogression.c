@@ -2,12 +2,12 @@
 
 int main()
 {
-    int a,n,d,s;
-    scanf("%d%d%d",&n,&a,&d);
-    if(n>=1&&d<=10000)
+    int a,b,c,d;
+    scanf("%d%d%d",&b,&a,&c);
+    if(b>=1&&d<=10000)
     {
-       s=(n*(2*a+(n-1)*d))/2; 
-       printf("%d",s);
+       s=(b*(2*a+(b-1)*c))/2; 
+       printf("%d",d);
     }
     else
     printf("invalid");
