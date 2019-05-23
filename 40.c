@@ -5,7 +5,7 @@ int main(void) {
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
-		printf("%d\n",f1);
+		printf("%d ",f1);
 		f3=f1+f2;
 		f1=f2;
 		f2=f3;
