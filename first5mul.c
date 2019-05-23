@@ -8,6 +8,6 @@ int main(void) {
 		m=n*i;
 		printf("%d ",m);
 	}
-	}
+	
 	return 0;
 }
