@@ -6,7 +6,7 @@ int main()
     scanf("%d%d%d",&b,&a,&c);
     if(b>=1&&d<=10000)
     {
-       s=(b*(2*a+(b-1)*c))/2; 
+       d=(b*(2*a+(b-1)*c))/2; 
        printf("%d",d);
     }
     else
